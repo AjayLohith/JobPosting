@@ -18,7 +18,7 @@ export default function JobForm({ onPost }) {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // ✅ Convert form to backend-compatible object
+        // ✅ Convert form to backend-compatible obj
         const jobData = {
             profile: form.profile.trim(),
             desc: form.desc.trim(),
